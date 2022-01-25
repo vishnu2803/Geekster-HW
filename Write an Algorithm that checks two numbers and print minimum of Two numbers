@@ -1,0 +1,23 @@
+package com.company;
+import java.util.*;
+
+public class TwoNumberPrint {
+    //Write an Algorithm that checks two numbers and print minimum of Two numbers
+    public static void main(String[] args) {
+        int numberOne, numberTwo, Smallest;
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter the first number: ");
+        numberOne = scan.nextInt();
+        System.out.println("Enter the Second number: ");
+        numberTwo = scan.nextInt();
+
+        if (numberOne < numberTwo)
+            Smallest = numberOne;
+        else
+            Smallest = numberTwo;
+
+        System.out.println( "\nSmallest = "+ Smallest);
+
+    }
+}
