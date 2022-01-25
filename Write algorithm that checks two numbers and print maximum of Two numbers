@@ -1,0 +1,23 @@
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// Write algorithm that checks two numbers and print maximum of Two numbers
+                int numberOne, numberTwo, largest;
+                Scanner scan = new Scanner(System.in);
+
+                System.out.print("Enter the First Number: ");
+                numberOne = scan.nextInt();
+                System.out.print("Enter the Second Number: ");
+                numberTwo = scan.nextInt();
+
+                if(numberOne>numberTwo)
+                    largest = numberOne;
+                else
+                    largest = numberTwo;
+
+                System.out.println("\nLargest = " +largest);
+            }
+        }
