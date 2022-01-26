@@ -1,0 +1,32 @@
+package com.company;
+import java.util.*;
+
+public class TwoNumberAverage{
+    public static void main(String[] args) {
+    //Write an Algorithm that checks two numbers and print average of Two numbers
+
+        int numberOne, numberTwo, Average;
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter the first number: ");
+        numberOne = scan.nextInt();
+        System.out.println("Enter the Second number: ");
+        numberTwo = scan.nextInt();
+
+        Average= (numberOne+numberTwo)/2;
+
+        System.out.println(Average);
+    }
+}
+
+    // Here is the algorithm to find the average of two numbers:
+
+    //   Step 1: Start
+
+    //    Step 2: Read numberOne and numberTwo
+
+     //   Step 3: avg = (numberOne+numberTwo)/2
+
+     //   Step 4: Print avg
+
+      //  Step 5: end
