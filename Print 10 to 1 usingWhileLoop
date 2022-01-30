@@ -1,0 +1,17 @@
+package com.company;
+
+public class Print10to1UsingWhileLoop {
+
+        public static void main(String[] args) {
+            //Write a program to print 1 to 10 using while loop
+            int i=10;
+            System.out.println("output is = ");
+            //loop from 10 to 1
+            while (i>=1 ){
+                System.out.println(i);
+                i--;
+
+
+            }
+        }
+    }
