@@ -21,3 +21,12 @@ public class TwoNumberPrint {
 
     }
 }
+
+
+// write an algoritm of above
+// step 1 = start
+// step 2= input a & b 
+// step 3= read a & b 
+// step 4= check a & b less than 
+// step 5= print "true" or "false"
+// step 6= end
