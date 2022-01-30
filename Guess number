@@ -1,0 +1,32 @@
+package com.company;
+import java.util.*;
+
+public class Puzz {
+    public static void main(String[] args) {
+        int Answer,Guess;
+        int Max=100;
+       Scanner A= new Scanner(System.in);
+           Random rand = new Random();
+
+           boolean correct=false;
+           Answer = rand.nextInt(Max)+1;
+
+           while (!correct) {
+               System.out.println("Guess a number 1 To 100");
+
+               Guess = A.nextInt();
+               if (Guess > Answer) {
+                   System.out.println("too high ");
+               }
+                else if ( Guess< Answer) {
+                   System.out.println("too low");
+               }
+                else {
+                   System.out.println("yes, !Correct");
+
+                   correct=true;
+               }
+           }
+               System.exit(0);
+    }
+}
