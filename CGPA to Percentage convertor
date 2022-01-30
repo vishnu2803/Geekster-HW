@@ -1,0 +1,25 @@
+package com.company;
+import java.util.Scanner;
+
+public class percentageConverter {
+    public static void main(String[] args) {
+        //Taking 5 subject mark as imput and converting to percentage.
+
+        Scanner s= new Scanner (System.in);
+        System.out.println("enter English Marks");
+        int English = s.nextInt();
+        System.out.println("enter Hindi Marks");
+        int Hindi = s.nextInt();
+        System.out.println("enter Maths Marks");
+        int Maths = s.nextInt();
+        System.out.println("enter Science Marks");
+        int Science = s.nextInt();
+        System.out.println("enter History Marks");
+        int History = s.nextInt();
+
+        int Percentage = (English+Hindi+Maths+Science+History)/5;
+        System.out.println("Your Percentage is");
+        System.out.print(Percentage);
+
+    }
+}
