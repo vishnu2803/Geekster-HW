@@ -1,0 +1,15 @@
+package com.company;
+import java.util.*;
+
+public class ForWhileLoop {
+    public static void main(String[] args) {
+        //Write a program to print 2,4,6,8,10 using while loop
+        int i = 2;
+        System.out.println("output is = ");
+
+        while (i <= 10) {
+            System.out.println(i);
+            i = i + 2;
+        }
+    }
+}
