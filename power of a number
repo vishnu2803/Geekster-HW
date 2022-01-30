@@ -1,0 +1,15 @@
+package com.company;
+import java.util.*;
+
+public class Calculate_Power {
+    public static void main(String[] args) {
+        //  Java Program to calculate power of a number"
+        int base = 3, exponent = -4;
+                double result = Math.pow(base, exponent);
+
+                System.out.println("Answer : " + result);
+
+
+            }
+        }
+
