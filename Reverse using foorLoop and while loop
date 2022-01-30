@@ -1,0 +1,21 @@
+package com.company;
+import java.util.*;
+
+public class ForWhileLoop {
+    public static void main(String[] args) {
+        //Write a program to print 10,8,6,4,2 using for loop and while loop
+        System.out.println(" using for loop= " );
+        for(int i=10;i>=2;i=i-2) {
+            System.out.println(i);
+        }
+
+        System.out.println("output is using While loop = ");
+             int i=10;
+            while (i >= 2) {
+                System.out.println(i);
+                i = i - 2;
+            }
+        }
+    }
+
+
