@@ -1,0 +1,16 @@
+package com.company;
+import java.util.*;
+
+public class CompoundInterest {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.println("enter rate:-");
+        float rate = s.nextFloat();
+        System.out.println("enter time:-");
+        float time = s.nextFloat();
+        System.out.println("enter principal;-");
+        float principal = s.nextFloat();
+        double CompoundInterest = principal *(Math.pow((1 + rate / 100), time));
+        System.out.println("The compound interest for the given principle amount, rate and time is "+          CompoundInterest);
+    }
+}
