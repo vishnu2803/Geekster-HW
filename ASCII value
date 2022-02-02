@@ -1,0 +1,12 @@
+package com.company;
+
+public class ValueOfChar {
+    public static void main(String[] args) {
+    //Print the ASCII value of any character user proides
+        char c = 'e';
+        int ascii = c;
+        int Ascii = (int) c;
+        System.out.println("The ASCII value of " + c + " is: " + ascii);
+        System.out.println("The ASCII value of " + c + " is: " + Ascii);
+    }
+}
