@@ -1,0 +1,16 @@
+public class Main
+{
+	public static void main(String[] args) {
+   //Write a program to reverse a 3-digit number. E.g.-Number : 132        Output : 231
+   int n = 132;
+   int first = n/100;     //first digit
+    n = n%100;
+	
+   int second = n/10;     //second digit
+   int third = n%10;      //third digit
+	
+    //reverse number //
+    int reverse = third*100 + second*10 + first;
+    System.out.println("reverse number is : "+reverse);
+  }
+}
