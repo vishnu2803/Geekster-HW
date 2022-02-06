@@ -1,0 +1,21 @@
+package com.company;
+import java.util.*;
+
+public class GeeksterAssignment {
+    public static void main(String[] args) {
+        //Take a 4 digit number. Write a program to display a number whose digits are 2 greater than the corresponding digits of the number TAKEN.
+        //For example, if the number which was taken is 5696, then the displayed number should be 7818.
+
+        int a, b, c, d;
+        a = 5;
+        b = 6;
+        c = 7;
+        d = 8;
+            System.out.print(a+2 );
+            System.out.print(b+2 );
+            System.out.print(c+2 );
+            System.out.print(d+2 );
+
+
+    }
+}
