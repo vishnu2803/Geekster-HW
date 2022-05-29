@@ -2,32 +2,40 @@ package com.company;
 import java.util.Scanner;
 
 public class primeNumber {
-
-    static public void main (String...args){
        // Write a program that checks if a number is a Prime number. take the user input.
 
-       int number;
-        Scanner Prime = new Scanner(System.in);
-
-        System.out.println("Enter the number: ");
-        number = Prime.nextInt();
-
-        if (isPrime(number)) {
-            System.out.println(number + " is a prime number");
-        } else {
-            System.out.println(number + " is not a prime number");
-        }
-    }
-
-    public static boolean isPrime(int n) {
-            if (n <= 1) {
-                return false;
-            }
-            for (int i = 2; i < Math.sqrt(n); i++) {
-                if (n % i == 0) {
-                    return false;
-                }
-            }
+       static boolean isPrime(int n)
+    {
+ 
+        // Check if number is less than
+        // equal to 1
+        if (n <= 1)
+            return false;
+ 
+        // Check if number is 2
+        else if (n == 2)
             return true;
+ 
+        // Check if n is a multiple of 2
+        else if (n % 2 == 0)
+            return false;
+ 
+        // If not, then just check the odds
+        for (int i = 3; i <= Math.sqrt(n); i += 2)
+        {
+            if (n % i == 0)
+                return false;
+        }
+        return true;
+    }
+ 
+  
+    public static void main(String[] args)
+    {
+        if (isPrime(19))
+            System.out.println("true");
+ 
+        else
+            System.out.println("false");
     }
 }
